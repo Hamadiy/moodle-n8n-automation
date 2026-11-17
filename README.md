@@ -6,7 +6,7 @@
 
 Présentation de mon **projet de fin d'études** : une chaîne d'automatisation **n8n** reliée à une plateforme **Moodle**. À partir du **nom d'un cours**, elle produit et publie les supports pédagogiques sans intervention manuelle.
 
-> ℹ️ Le workflow original a été perdu. Ce dépôt est une **reconstruction de la présentation du projet** : architecture, fonctionnement et choix techniques. Il ne contient ni le workflow n8n, ni aucune clé d'API.
+> **Note :** Le workflow original a été perdu. Ce dépôt est une **reconstruction de la présentation du projet** : architecture, fonctionnement et choix techniques. Il ne contient ni le workflow n8n, ni aucune clé d'API.
 
 ## Le problème
 
@@ -21,9 +21,9 @@ L'enseignant renseigne **un seul champ**, le nom du cours, puis **coche** les co
 
 | Option | Résultat |
 |---|---|
-| ☑️ Vidéo | Vidéo pédagogique générée, puis publiée sur **YouTube** |
-| ☑️ Cours PDF | Support de cours généré en PDF, puis publié sur **Google Classroom** |
-| ☑️ TD PDF | Fiche de travaux dirigés générée en PDF, puis publiée sur **Google Classroom** |
+| Vidéo | Vidéo pédagogique générée, puis publiée sur **YouTube** |
+| Cours PDF | Support de cours généré en PDF, puis publié sur **Google Classroom** |
+| TD PDF | Fiche de travaux dirigés générée en PDF, puis publiée sur **Google Classroom** |
 
 Le workflow s'occupe de tout le reste.
 
